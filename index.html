@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sudoku Solver | Prodigy InfoTech</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <section class="solver-card">
+
+            <header class="header">
+
+                <div class="icon">
+                    🧩
+                </div>
+
+                <h1>Sudoku Solver</h1>
+
+                <p>
+                    Enter an unsolved Sudoku puzzle and solve it
+                    automatically using backtracking.
+                </p>
+
+            </header>
+
+
+            <section class="sudoku-container">
+
+                <div
+                    id="sudokuGrid"
+                    class="sudoku-grid"
+                    aria-label="Sudoku grid"
+                ></div>
+
+            </section>
+
+
+            <div id="message" class="message"></div>
+
+
+            <section class="controls">
+
+                <button id="solveBtn">
+                    Solve Sudoku
+                </button>
+
+                <button id="clearBtn" class="secondary-btn">
+                    Clear
+                </button>
+
+                <button id="exampleBtn" class="secondary-btn">
+                    Load Example
+                </button>
+
+            </section>
+
+
+            <div class="instructions">
+
+                <h2>How to use</h2>
+
+                <ul>
+                    <li>Enter numbers from 1 to 9.</li>
+                    <li>Leave empty cells blank.</li>
+                    <li>Click <strong>Solve Sudoku</strong>.</li>
+                    <li>The solver uses backtracking to find a solution.</li>
+                </ul>
+
+            </div>
+
+
+            <footer>
+                Prodigy InfoTech — Software Development Internship
+            </footer>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
